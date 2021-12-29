@@ -1,4 +1,4 @@
-	@Library('roboshop') _
+@Library('roboshop') _
 
 // Variables
 env.COMPONENT = "cart"
