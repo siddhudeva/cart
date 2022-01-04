@@ -1,5 +1,5 @@
 @Library('roboshop') _
-//sdfs
+//sdf
 // Variables
 env.COMPONENT = "cart"
 env.BUILD_LABEL = "WORKSTATION"
