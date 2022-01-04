@@ -57,7 +57,7 @@ app.get('/metrics', (req, res) => {
     res.header('Content-Type', 'text/plain');
     res.send(register.metrics());
 });
-//gg
+
 
 // get cart with id
 app.get('/cart/:id', (req, res) => {
