@@ -1,6 +1,6 @@
 @Library('Roboshop') _
 
-// Variables
+// Variable
 env.COMPONENT = "cart"
 env.BUILD_LABEL = "WORKSTATION"
 
