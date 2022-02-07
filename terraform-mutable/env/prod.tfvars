@@ -1,4 +1,4 @@
-VPC_CIDR = "10.20.0.0/16"
-ENV = "prod"
-PUBLIC_SUBNET_CIDR = ["10.20.0.0/24", "10.20.10.0/24"]
-PRIVATE_SUBNET_CIDR = ["10.20.100.0/24", "10.20.110.0/24"]
+COMPONENT      = "cart"
+INSTANCES_NO   = 2
+INSTANCES_TYPE = "t3.micro"
+ENV            = "prod"
