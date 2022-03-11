@@ -1,6 +1,6 @@
 pipeline {
   agent{
-  label 'WORKSATATION'
+  label 'WORKSTATION'
   }
   stages {
     stage ( 'compile the code' ) {
