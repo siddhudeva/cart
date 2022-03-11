@@ -6,7 +6,7 @@ def COMPONENT = ["cart", "frontend", "catalogue", "payment", "shipping", "user",
 def SIZEs =  COMPONENT.size -1
 for(i in 0..SIZEs) {
     def s = COMPONENT[i]
-    pipelineJob("Immutable/${s}") {
+    pipelineJob("docker/${s}") {
         configure { flowdefinition ->
             flowdefinition << delegate.'definition'(class: 'org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition', plugin: 'workflow-cps') {
                 'scm'(class: 'hudson.plugins.git.GitSCM', plugin: 'git') {
