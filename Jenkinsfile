@@ -25,7 +25,10 @@ pipeline {
     }
     stage('prepare artifacts') {
       steps {
-        sh 'docker build -t cart .'
+        sh '''
+        docker build -t cart .
+        docker run -d cart
+        '''
       }
     }
     stage('publish artifacts') {
