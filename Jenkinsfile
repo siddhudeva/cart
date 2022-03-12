@@ -3,11 +3,10 @@ pipeline {
   label 'WORKSTATION'
   }
   stages {
-    stage ( 'compile the code' ) {
+    stage('compile the code'){
        steps {
-          echo hello
+          echo hello world
        }
     }
   }
-
 }
