@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('compile the code'){
        steps {
-          echo hello world
+          sh 'echo hello world'
        }
     }
   }
