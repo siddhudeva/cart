@@ -1,6 +1,6 @@
 # Cart Service
 
-This service is responsible for Cart Service in  RobotShop e-commerce portal.
+#This service is responsible for Cart Service in  RobotShop e-commerce portal.
 
 This service is written in NodeJS, Hence need to install NodeJS in the system.
 
